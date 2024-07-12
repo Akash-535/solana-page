@@ -1,3 +1,4 @@
+/*----------header and  section-1-----------*/
 @import url(./root.css);
 
 .nav-bg {
@@ -19,6 +20,68 @@
   font-size: var(--fs-20px);
   font-weight: 500;
 }
+
+/*--------------section-2---------------*/
+
+.first-burger {
+  top: 2%;
+  left: 4%;
+}
+.second-burger {
+  top: 45%;
+  left: 15px;
+}
+.three-burger {
+  top: 2%;
+  left: 25%;
+}
+.four-burger {
+  top: 60%;
+  left: 25%;
+}
+.right-one {
+  right: 22%;
+  top: 13%;
+}
+
+.right-two {
+  right: 5%;
+  top: 5%;
+}
+
+.right-three {
+  right: 14%;
+  bottom: 11%;
+}
+
+.right-four {
+  right: 3%;
+  bottom: 22%;
+}
+
+.bg-yellow-2 {
+  background: #fff03f;
+}
+.under-imag {
+  bottom: -68%;
+  left: 37.5%;
+}
+.welcome {
+  font-family: "Poppins", sans-serif;
+  font-size: var(--fs--36);
+  font-weight: 700;
+  line-height: 54px;
+  color: #000000;
+  padding-top: 50px;
+}
+.pb-133 {
+  padding-bottom: 133px;
+}
+.w-30 {
+  width: 25%;
+}
+
+/*-----------header-responsive-----------*/
 
 @media (max-width: 992px) {
   .nav-link {
@@ -47,7 +110,7 @@
     margin-top: 15px;
     background: none;
     display: block;
-    z-index: 2;
+    z-index: 10;
   }
 
   .line {
@@ -63,5 +126,35 @@
 
   .pos {
     top: -7px;
+  }
+}
+@media (max-width: 768px) {
+  .first-burger {
+    width: 20%;
+  }
+  .second-burger {
+    width: 20%;
+  }
+  .three-burger {
+    width: 20%;
+  }
+  .four-burger {
+    width: 20%;
+  }
+  .right-one {
+    width: 20%;
+    top: 2%;
+  }
+
+  .right-two {
+    width: 20%;
+  }
+
+  .right-three {
+    width: 20%;
+  }
+
+  .right-four {
+    width: 20%;
   }
 }
