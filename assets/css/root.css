@@ -1,0 +1,24 @@
+:root {
+  /*--------------font-color----------------*/
+
+  --fc-black: #000;
+  --fc-white: #fff;
+  --fc-grey: #666666;
+  --fc-gray: #cccccc;
+  --fc-off-white: #f0f0f0;
+  --fc-light-grey: #c0c0c0;
+  --fc-grey-f8: #f8f8f8;
+  --fc-grey-fa: #fafafa;
+  --fc-red: #f4241e;
+
+  /* font-size  */
+  --fs-xsm: 10px;
+  --fs-sm: 12px;
+  --fs-md: 14px;
+  --fs-16: 16px;
+  --fs-lg: 18px;
+  --fs-20px: 20px;
+  --fs-2lg: 24px;
+  --fs-xl: 36px;
+  --fs-xxl: 45px;
+}

@@ -1,0 +1,67 @@
+@import url(./root.css);
+
+.nav-bg {
+  background: #f6e300;
+}
+.home {
+  color: var(--fc-red);
+  font-size: var(--fs-lg);
+}
+.nav-text {
+  font-size: var(--fs-lg);
+}
+.conn-btn {
+  width: 220px;
+  height: 54px;
+  border: 0;
+  border-radius: 10px;
+  color: var(--fc-red);
+  font-size: var(--fs-20px);
+  font-weight: 500;
+}
+
+@media (max-width: 992px) {
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6e300 !important;
+    width: 30%;
+    min-height: 100vh;
+    position: fixed;
+    justify-content: center;
+    bottom: 0;
+    left: -100% !important;
+    top: 0%;
+    transition: all 300ms linear;
+  }
+
+  .show-nvabar {
+    left: 0 !important;
+  }
+  .conn-btn {
+    width: auto;
+    font-size: var(--fs-16);
+  }
+  .menu-btn {
+    width: 35px;
+    margin-top: 15px;
+    background: none;
+    display: block;
+    z-index: 2;
+  }
+
+  .line {
+    height: 4px;
+    display: flex;
+    margin: 4px;
+    background: white;
+  }
+
+  .line-1 {
+    width: 13px;
+  }
+
+  .pos {
+    top: -7px;
+  }
+}
