@@ -2,7 +2,7 @@
 @import url(./root.css);
 
 .nav-bg {
-  background: #f6e300;
+  background: var(--color-yellow);
 }
 .home {
   color: var(--fc-red);
@@ -60,7 +60,7 @@
 }
 
 .bg-yellow-2 {
-  background: #fff03f;
+  background: var(--color-yellow);
 }
 .under-imag {
   bottom: -68%;
@@ -81,13 +81,26 @@
   width: 25%;
 }
 
+/*-----------------section-3--------------*/
+.bg-3 {
+  background-color: var(--color-light-yellow);
+}
+.discover {
+  width: 219px;
+  height: 53px;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  background: var(--color-red);
+}
+
 /*-----------header-responsive-----------*/
 
 @media (max-width: 992px) {
   .nav-link {
     display: flex;
     flex-direction: column;
-    background-color: #f6e300 !important;
+    background-color: var(--color-yellow) !important;
     width: 30%;
     min-height: 100vh;
     position: fixed;
@@ -128,6 +141,7 @@
     top: -7px;
   }
 }
+/*========================burger-images-responsive===============*/
 @media (max-width: 768px) {
   .first-burger {
     width: 20%;
