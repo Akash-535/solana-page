@@ -246,6 +246,7 @@
   font-size: var(--fs-lg);
   font-weight: 400;
 }
+
 /*-----------header-responsive-----------*/
 
 @media (max-width: 992px) {
