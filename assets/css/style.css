@@ -18,7 +18,7 @@
   border: 0;
   border-radius: 10px;
   color: var(--fc-red);
-  font-size: var(--fs-20px);
+  font-size: var(--fs-lg);
   font-weight: 500;
   transition: all 600ms linear;
 }
@@ -272,7 +272,7 @@ body {
   .nav-link {
     display: flex;
     flex-direction: column;
-    background-color: #f6e300 !important;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%) !important;
     width: 40%;
     position: fixed;
     justify-content: center;
@@ -318,14 +318,13 @@ body {
     width: 20%;
   }
   .three-burger {
-    width: 20%;
+    display: none;
   }
   .four-burger {
-    width: 20%;
+    display: none;
   }
   .right-one {
-    width: 20%;
-    top: 2%;
+    display: none;
   }
 
   .right-two {
@@ -337,9 +336,9 @@ body {
   }
 
   .right-four {
-    width: 20%;
+    display: none;
   }
-}
+  
 /*=================timeline-responsive============*/
 @media screen and (max-width: 600px) {
   .timeline::after {
