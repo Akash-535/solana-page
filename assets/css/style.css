@@ -338,7 +338,7 @@ body {
   .right-four {
     display: none;
   }
-  
+}
 /*=================timeline-responsive============*/
 @media screen and (max-width: 600px) {
   .timeline::after {
