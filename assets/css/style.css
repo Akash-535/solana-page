@@ -229,6 +229,11 @@
 .timeline-text {
   line-height: 150%;
 }
+/*============accordian===============*/
+
+.bg-light-yellow {
+  background: var(--color-light-yellow);
+}
 /*-----------header-responsive-----------*/
 
 @media (max-width: 992px) {
