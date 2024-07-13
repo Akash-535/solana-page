@@ -232,7 +232,19 @@
 /*============accordian===============*/
 
 .bg-light-yellow {
-  background: var(--color-light-yellow);
+  background: var(--color-light-yellow) !important;
+}
+.faq {
+  font-weight: 700;
+  font-size: var(--fs-xxl);
+}
+.accordian-text {
+  font-size: var(--fs-lg);
+  font-weight: 600;
+}
+.accordian-pera {
+  font-size: var(--fs-lg);
+  font-weight: 400;
 }
 /*-----------header-responsive-----------*/
 
