@@ -132,6 +132,10 @@ body {
 .bg-yellow {
   background-color: var(--color-yellow);
 }
+.heading-2 {
+  font-weight: 700;
+  font-size: var(--fs-xxl);
+}
 .timeline {
   position: relative;
   max-width: 1200px;
@@ -218,7 +222,7 @@ body {
   left: 1%;
 }
 .three-burgr {
-  top: -25px;
+  top: -10px;
   left: 25%;
 }
 .four-burgr {
