@@ -20,10 +20,11 @@
   --fs-20px: 20px;
   --fs-2lg: 24px;
   --fs-xl: 36px;
-  --fs-xxl: 45px;
+  --fs-xxl: 48px;
 
   /*----------*/
   --color-yellow: #f6e300;
   --color-light-yellow: #fff03f;
   --color-red: #f4241e;
+  --color-white: #ffffff;
 }
