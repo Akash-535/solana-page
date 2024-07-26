@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url(./root.css);
+#loader {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  background: black url(../images/gif/eat.gif) no-repeat center;
+}
 /*----------header and  section-1-----------*/
 
 .nav-bg {
@@ -30,6 +37,17 @@ body {
   font-family: "Poppins", sans-serif !important;
 
   font-style: normal;
+}
+.line-1-1 {
+  transform-origin: left;
+  transform: rotate(35deg);
+}
+.line-2 {
+  background-color: transparent !important;
+}
+.line-3 {
+  transform-origin: left;
+  transform: rotate(-35deg);
 }
 /*--------------section-2---------------*/
 
@@ -265,6 +283,13 @@ body {
   font-size: var(--fs-lg);
   font-weight: 400;
 }
+.accordion-item {
+  border: none !important;
+}
+.accordion-button {
+  box-shadow: none !important;
+  color: var(--fc-black) !important;
+}
 
 /*-----------header-responsive-----------*/
 
@@ -280,7 +305,7 @@ body {
     left: -100% !important;
     top: 0%;
     z-index: 2;
-    transition: all 0.5s linear !important;
+    transition: all 0.2s linear !important;
   }
 
   .show-nvabar {

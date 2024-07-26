@@ -22,7 +22,11 @@
   </style>
 </head>
 
-<body>
+<body onload="loading()">
+  <div id="loader">
+
+
+  </div>
   <!-------------header----------------->
   <header>
     <div class="nav-bg">
@@ -30,9 +34,9 @@
         <nav class="d-flex align-items-center justify-content-between ">
           <div class="d-flex gap-3">
             <div class="menu-btn bg-none " onclick="navbarbtn()">
-              <span class="line"></span>
-              <span class="line"></span>
-              <span class="line"></span>
+              <span id="lines" class="line "></span>
+              <span id="lines-2" class="line "></span>
+              <span id="lines-3" class="line "></span>
             </div>
             <div>
               <img class=" logo-img w-100 " src="./assets/images/svg/logo.svg" alt="logo">
@@ -368,6 +372,8 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
   </script>
   <script src="./assets/js/app.js"></script>
+
 </body>
+
 
 </html>
