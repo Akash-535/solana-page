@@ -7,6 +7,9 @@
   z-index: 100;
   background: black url(../images/gif/eat.gif) no-repeat center;
 }
+.cursor {
+  cursor: pointer;
+}
 /*----------header and  section-1-----------*/
 
 .nav-bg {
@@ -19,6 +22,10 @@
 .nav-text {
   font-size: var(--fs-16);
   font-weight: 400;
+}
+.nav-text:hover {
+  -webkit-text-stroke: 1px;
+  color: var(--color-red) !important;
 }
 .conn-btn {
   height: 54px;
