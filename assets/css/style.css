@@ -127,7 +127,9 @@ body {
   color: var(--fc-red);
 }
 /*------------------image-section----------*/
-
+.pb-10 {
+  padding-bottom: 10%;
+}
 /*----------------section-5--------------*/
 .bg-red {
   background: var(--color-red);
@@ -368,7 +370,7 @@ body {
 @media screen and (max-width: 600px) {
   .timeline::after {
     left: 31px;
-    height: 70%;
+    height: 71%;
   }
 
   .box_1 {
